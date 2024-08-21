@@ -1,2 +1,2 @@
 # Proyecto-CursoEdutecno
-Proyecto de Daniel Ugalde M.
+Proyecto de Daniel Ugalde M. 2
