@@ -1,3 +1,3 @@
 # Proyecto-CursoEdutecno .
 
-### Proyecto de Fernando Quezada Puño M.1
+### Proyecto de Fernando Quezada Puño M.2
