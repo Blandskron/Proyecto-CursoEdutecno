@@ -1,6 +1,10 @@
 # Proyecto-CursoEdutecno
 <<<<<<< HEAD
+<<<<<<< HEAD
 para que exista el proyecto
+=======
+Version 1.0
+>>>>>>> beff8b5f020c8141be6b12853fefb6a5aaae5bd9
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
