@@ -1,0 +1,59 @@
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: flex;
+    bottom: 0;
+    width: 1000;
+}
+
+.footer-titulo {
+    font-size: 1.5em
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: thin;
+    
+}
+
+footer ul ño a:hover {
+    color: #a5a5a5;
+}
+
+.redes{
+    display: flex;
+    justify-content:center;
+    margin-block: 20px;
+    width: 100%;
+}
+.social a{
+    color: #a5a5a5;
+    font-size: 1.1em;
+
+}
+
+.social a:hover{
+    color:#fff;
+}
+
+,info{
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+    gap: 20px;
+    
+}
+
+.footer-lista-header{
+    
+}
