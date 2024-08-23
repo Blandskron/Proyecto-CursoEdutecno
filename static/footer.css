@@ -26,7 +26,7 @@ footer ul li a{
     
 }
 
-footer ul ño a:hover {
+footer ul li a:hover {
     color: #a5a5a5;
 }
 
@@ -43,10 +43,10 @@ footer ul ño a:hover {
 }
 
 .social a:hover{
-    color:#fff;
+    color:#c71010;
 }
 
-,info{
+.info{
     display: flex;
     justify-content: center;
     margin-block: 20px;
@@ -55,5 +55,8 @@ footer ul ño a:hover {
 }
 
 .footer-lista-header{
-    
+    font-size: 0.9em;
+    color: #94939393;
+
+
 }
