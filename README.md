@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto Colaborativo - Desarrollador Fullstack Python Trainee
 
 Este proyecto es parte del **programa de Talento Digital para Chile**, desarrollado en colaboración con **SENCE** y **EduTecno**. El curso se llama **Desarrollador Fullstack Python Trainee** y en él, los estudiantes han trabajado juntos en un entorno profesional utilizando GitHub para gestionar el código y la colaboración en equipo.
@@ -72,3 +73,7 @@ La web ha sido desarrollada utilizando las siguientes tecnologías:
 ## Colaboración
 
 El equipo ha trabajado bajo un entorno profesional utilizando GitHub para la gestión del código, aplicando las mejores prácticas de control de versiones, colaboración y comunicación efectiva. Este proyecto ha sido una valiosa experiencia práctica en el desarrollo colaborativo, preparándonos para los desafíos del mundo laboral en el desarrollo de software.
+=======
+# Proyecto-CursoEdutecno
+Hola mundo de Diego G
+>>>>>>> d004e5e (update)
