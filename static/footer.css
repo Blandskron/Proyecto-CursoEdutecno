@@ -9,7 +9,8 @@ footer{
 }
 
 .footer-titulo {
-    font-size: 1.5em
+    font-size: 1.5em;
+    border-bottom: 1px solid #00c3ff;
 }
 
 footer ul {
@@ -23,6 +24,7 @@ footer ul li a{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: thin;
+   
     
 }
 
@@ -43,7 +45,7 @@ footer ul li a:hover {
 }
 
 .social a:hover{
-    color:#c71010;
+    background-color: #cac2c2;
 }
 
 .info{
@@ -60,3 +62,4 @@ footer ul li a:hover {
 
 
 }
+
