@@ -26,7 +26,34 @@
 
     <!-- Bastian segunda parte del form: casilla seleccion, mensaje, boton de envio-->
 
-    <p> Somos un gran curso. </p>
+    <div class="contact-form">
+        <h2>Envianos un mensaje</h2>
+
+    <!-- Resto del formulario -->
+
+
+        <textarea placeholder="Animate! Escribenos un mensaje y te contactaremos lo antes posible"></textarea>
+        <input type="file" id="file-upload" accept=".zip">
+        <div class="error-message" id="error-message">Por favor sube un archivo ZIP con peso menor a 500 KB.</div>
+        <button id="submit-btn">Envia tu mensaje</button>
+    </div>
+
+    <script>
+        const button = document.getElementById('submit-btn');
+        const fileInput = document.getElementById('file-upload');
+        const errorMessage = document.getElementById('error-message');
+
+        button.addEventListener('click', function(event) {
+            const file = fileInput.files[0];
+            if (file && (file.size > 500 * 1024 || file.type !== 'application/zip')) {
+                errorMessage.style.display = 'block';
+            } else {
+                errorMessage.style.display = 'none';
+                this.classList.toggle('clicked');
+                this.textContent = this.classList.contains('clicked') ? 'Mensaje enviado!' : 'Enviar mensaje';
+            }
+        });
+    </script>
 
     <!-- Ruth descripción y seleccion -->
 
