@@ -1,0 +1,13 @@
+
+
+.body {
+    display: flex;
+    background-color: #413d3d;
+    color: aliceblue;
+    font-palette: ;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    }
