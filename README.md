@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Hola mundo
 =======
 Hola mundo de Diego G
@@ -19,6 +20,7 @@ Hola mundo
 >>>>>>> d0b807c635e32d82a55626b188a063e2aef4f9a9
 =======
 interaccion github
+<<<<<<< HEAD
 
 =======
 # Proyecto Colaborativo - Desarrollador Fullstack Python Trainee
@@ -96,3 +98,12 @@ La web ha sido desarrollada utilizando las siguientes tecnologías:
 
 El equipo ha trabajado bajo un entorno profesional utilizando GitHub para la gestión del código, aplicando las mejores prácticas de control de versiones, colaboración y comunicación efectiva. Este proyecto ha sido una valiosa experiencia práctica en el desarrollo colaborativo, preparándonos para los desafíos del mundo laboral en el desarrollo de software.
 
+=======
+>>>>>>> f0d35baa74f4a42784f75e46cdd233fdd4f696a5
+=======
+Este es el primer cambio DDDDDDDDDDDDD
+=======
+interaccion github
+>>>>>>> 938dcf8e6f86791f2076c6ae5599c0d1bab78954
+>>>>>>> f2ef1b0b871a0a511a253ca06e99002263bad7b4
+>>>>>>> 9c095fcc4d983bd8a33e046450eebb431c6c6742
