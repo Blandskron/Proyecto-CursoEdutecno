@@ -7,7 +7,7 @@ body {
 
 
 footer {
-    position: fixed;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -20,7 +20,7 @@ footer {
   
     footer .copyright {
     font-size: 0.8em;
-    margin-top: 20px;
+    margin-top: 1px; 
     color: #bbb;
   }
 
@@ -43,3 +43,4 @@ footer {
     object-position: center;
     margin: auto; /* Centra el carousel en la página */
 }
+
