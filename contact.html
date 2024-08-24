@@ -24,28 +24,99 @@
             </ul>
         </nav>
     </header>
+    </div>
 
     <!-- Solange primera parte form nombre, apellido y correo-->
     <div class="container">
         <h1>Formulario de Contacto</h1>
         <form action="#" method="post">
             <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+            <input type="text" id="nombre" name="nombre" required class="mt-2">
 
             <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" required>
+            <input type="text" id="apellido" name="apellido" required class="mt-2">
 
             <label for="correo">Correo Electrónico:</label>
-            <input type="email" id="correo" name="correo" required>
+            <input type="email" id="correo" name="correo" required class="mt-2">
 
+            <!-- Ruth descripción y seleccion -->
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Seleciona a tu desarrollador</option>
+              <option value="1">Daniel</option>
+              <option value="2">Solange</option>
+              <option value="3">Luis</option>
+              <option value="3">Ruth</option>
+              <option value="3">Bastian</option>
+            </select><br>
+            
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Carga tus archivos</label>
+              <input class="form-control" type="file" id="formFile">
+            </div>
+
+            <div class="mb-3">
+              <label for="basic-url" class="form-label">Github URL</label>
+              <div class="input-group">
+                <span class="input-group-text" id="basic-addon3">https://github.com/</span>
+                <input type="url" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+              </div>
+              <div class="form-text" id="basic-addon4">Este deberíar ser el link a tu portafolio.</div>
+            </div>
+            <h4 class="mb-3">Realiza tu pago</h4>
+            <div class="my-3">
+              <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="credit">Tarjeta de crédito</label>
+              </div>
+              <div class="form-check">
+                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="debit">Tarjeta de débito</label>
+              </div>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="paypal">PayPal</label>
+              </div>
+            </div>
+            <div class="row gy-3">
+              <div class="col-md-6">
+                <label for="cc-name" class="form-label">Nombre de la tarjeta</label>
+                <input type="password" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-body-secondary">Nombre de la tarjeta</small>
+                <div class="invalid-feedback">
+                  Ingresa el nombre
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <label for="cc-number" class="form-label">Número de tarjeta</label>
+                <input type="password" class="form-control" id="cc-number" placeholder="" required>
+                <div class="invalid-feedback">
+                  Número de tarjeta es requerido
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <label for="cc-expiration" class="form-label">Fecha de expiración</label>
+                <input type="number" class="form-control" id="cc-expiration" placeholder="" required>
+                <div class="invalid-feedback">
+                  Fecha de expiración es requerida
+                </div>
+              </div>
+  
+              <div class="col-md-6">
+                <label for="cc-cvv" class="form-label">CVV</label>
+                <input type="number" class="form-control" id="cc-cvv" placeholder="" required>
+                <div class="invalid-feedback">
+                  Número CVV es requerido
+                </div>
+              </div>
+            </div><br>
             <button type="submit">Enviar</button>
         </form>
     </div>
 
     <!-- Bastian segunda parte del form: casilla seleccion, mensaje, boton de envio-->
     <p> Somos un gran curso. </p>
-    <!-- Ruth descripción y seleccion -->
-
 
 
     <!-- Luis footer-->
