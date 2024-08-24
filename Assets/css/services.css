@@ -7,7 +7,7 @@ body {
 
 
 footer {
-    position: fixed;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -20,6 +20,27 @@ footer {
   
     footer .copyright {
     font-size: 0.8em;
-    margin-top: 20px;
+    margin-top: 1px; 
     color: #bbb;
   }
+
+.carousel-item {
+    height: auto; /* Ajusta la altura del carousel si es necesario */
+    width: fit-content;
+}
+
+.carousel-item img {
+    object-fit:cover; /* Asegura que la imagen cubra el área */
+    object-position: center;
+}
+
+.custom-carousel {
+    max-width: 40%; /* Ajusta el ancho máximo del carousel */
+    margin: auto; /* Centra el carousel en la página */
+}
+
+.custom-botones {
+    object-position: center;
+    margin: auto; /* Centra el carousel en la página */
+}
+
