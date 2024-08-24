@@ -67,3 +67,10 @@ section {
     transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) translateZ(20px); /* Aplica una rotación 3D y un desplazamiento en el eje Z */
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Aumenta la sombra para intensificar el efecto 3D */
 }
+.ClaseImagenesSlider{
+    border-radius: 25px;
+    border-bottom-left-radius: 90px;
+    border:dashed 1px blue;
+    max-height: 500px; /* Ajusta este valor según lo que necesites */
+    object-fit: cover; /* Esto asegura que la imagen se ajuste al contenedor sin distorsionarse */
+}

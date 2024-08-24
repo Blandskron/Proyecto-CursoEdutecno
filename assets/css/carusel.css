@@ -1,0 +1,7 @@
+.ClaseImagenesSlider{
+    border-radius: 25px;
+    border-bottom-left-radius: 90px;
+    border:dashed 1px blue;
+    max-height: 500px; /* Ajusta este valor según lo que necesites */
+    object-fit: cover; /* Esto asegura que la imagen se ajuste al contenedor sin distorsionarse */
+}
