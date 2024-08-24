@@ -75,5 +75,9 @@ La web ha sido desarrollada utilizando las siguientes tecnologías:
 El equipo ha trabajado bajo un entorno profesional utilizando GitHub para la gestión del código, aplicando las mejores prácticas de control de versiones, colaboración y comunicación efectiva. Este proyecto ha sido una valiosa experiencia práctica en el desarrollo colaborativo, preparándonos para los desafíos del mundo laboral en el desarrollo de software.
 =======
 # Proyecto-CursoEdutecno
+<<<<<<< HEAD
 Hola mundo de Diego G
 >>>>>>> d004e5e (update)
+=======
+Hola mundo
+>>>>>>> 2a8fb47 (Hola mundo)
