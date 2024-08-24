@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Proyecto-CursoEdutecno .
 
 ### Proyecto de Fernando Quezada Puño M.2
@@ -107,3 +108,8 @@ interaccion github
 >>>>>>> 938dcf8e6f86791f2076c6ae5599c0d1bab78954
 >>>>>>> f2ef1b0b871a0a511a253ca06e99002263bad7b4
 >>>>>>> 9c095fcc4d983bd8a33e046450eebb431c6c6742
+=======
+# Proyecto-CursoEdutecno 
+
+
+>>>>>>> 15f669f663d421a9b4134b12674f92661cbefa85
