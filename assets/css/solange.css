@@ -4,7 +4,10 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
         justify-content: center;
+=======
+>>>>>>> c2e0446c84fbc07bef557db6cbfe3407484278d6
     align-items: center;
     height: 100vh;
 }
@@ -29,7 +32,7 @@ form {
 }
 
 label {
-    margin: 10px 0 5px;
+
     color: #555;
 }
 
@@ -39,6 +42,7 @@ input[type="text"], input[type="email"] {
     border-radius: 4px;
     margin-bottom: 10px;
 }
+
 
 button {
     padding: 10px;
