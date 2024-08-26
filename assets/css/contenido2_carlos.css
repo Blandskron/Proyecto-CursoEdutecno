@@ -1,0 +1,69 @@
+/* Aplica un relleno a las secciones para darle espacio interno, 
+   y centra todo el contenido en su interior */
+section {
+    padding: 3rem 5%; /* 3rem de relleno arriba y abajo, 5% a los lados */
+    text-align: center; /* Centra el texto y otros elementos dentro de la sección */
+}
+
+.article_section {
+    text-align: center; /* Centra el contenido del artículo */
+    border-radius: 10px; /* Redondea las esquinas del artículo */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Aplica una sombra al artículo */
+    transform: translateY(-10px); /* Eleva ligeramente el artículo para un efecto 3D */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3); /* Aplica sombra al texto para profundidad */
+}
+
+.article_section:hover {
+    transform: translateY(-15px); /* Aumenta el efecto de elevación al pasar el cursor */
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6); /* Intensifica la sombra al pasar el cursor */
+}
+
+
+/* Estilo para los títulos h5 dentro de los artículos */
+.article_h5 {
+    text-align: center; /* Centra el texto del título */
+    line-height: 1.5; /* Define el interlineado, es decir, la altura entre líneas de texto */
+    border-radius: 5px; /* Redondea las esquinas del título */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Aplica una sombra al artículo */
+    transform: rotate(0deg); /* No aplica ninguna rotación, es un valor inicial */
+    background: radial-gradient(circle, #ff9a9e, #fad0c4, #fad0c4);
+    font-family:"Poppins", sans-serif;
+}
+
+/* Estilo para la cuadrícula de proyectos. Se utiliza Flexbox para organizar los elementos */
+.proyectos-grid {
+    display: flex; /* Utiliza Flexbox para organizar los elementos */
+    justify-content: space-around; /* Distribuye el espacio sobrante entre los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si es necesario */
+}
+
+/* Estilo para cada elemento de proyecto dentro de la cuadrícula */
+.proyecto-item {
+    padding: 0.4rem; /* Espacio interno dentro de cada elemento de proyecto */
+    margin: 0.4rem; /* Espacio externo alrededor de cada elemento de proyecto */
+    flex: 1 2 calc(33.333% - 2rem); /* Define cómo deben comportarse los elementos dentro del flexbox */
+    box-sizing: border-box; /* Incluye el padding y border en el ancho y alto del elemento */
+}
+
+/* Estilo para las imágenes dentro de cada proyecto */
+.proyecto-item img {
+    max-width: 100%; /* La imagen ocupa el 100% del ancho de su contenedor */
+    height: auto; /* La altura se ajusta automáticamente para mantener la proporción */
+    display: block; /* Se asegura de que la imagen se trate como un bloque */
+    margin: 0 auto 1rem; /* Centra la imagen horizontalmente y le da un margen inferior */
+}
+
+/* Estilo para las tarjetas con efecto 3D */
+.card-3d {
+    border-radius: 10px; /* Redondea las esquinas de la tarjeta */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3); /* Aplica una sombra para darle profundidad */
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg); /* Establece la perspectiva para el efecto 3D, sin rotación inicial */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añade una transición suave para la transformación y la sombra */
+}
+
+/* Efecto cuando se pasa el cursor sobre la tarjeta */
+.card-3d:hover {
+    transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) translateZ(20px); /* Aplica una rotación 3D y un desplazamiento en el eje Z */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Aumenta la sombra para intensificar el efecto 3D */
+}

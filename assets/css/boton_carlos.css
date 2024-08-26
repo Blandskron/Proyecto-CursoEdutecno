@@ -1,0 +1,18 @@
+/* Css Botón de Arriba*/
+.ir-arriba {
+	display:none;
+	padding:10px;
+    background: rgb(84,163,238); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(84,163,238,1) 50%, rgba(54,144,240,1) 51%, rgba(30,105,222,1) 72%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 72%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 72%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54a3ee', endColorstr='#1e69de',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+    border-radius:100px;
+    box-shadow: 0px 4px 5px 0px rgba(8,8,247,1);
+}

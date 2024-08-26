@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Proyecto-CursoEdutecno
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -16,3 +17,8 @@ Hola mundo
 =======
 interaccion github
 >>>>>>> f0d35baa74f4a42784f75e46cdd233fdd4f696a5
+=======
+# Proyecto-CursoEdutecno 
+
+
+>>>>>>> 23d900825fcb0a2edd5bed6c5cddc6829d61bddf
