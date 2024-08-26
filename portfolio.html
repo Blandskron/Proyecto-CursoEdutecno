@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="static/footer.css">
     <link rel="shortcut icon" href="/static/img/logo.png" type="image/x-icon">
     <link rel="shortcut icon" href="assets/LogCodes.png" type="image/x-icon">
+    <!-- Preconnect para mejorar la velocidad de carga de recursos de Vimeo -->
+    <link rel="preconnect" href="https://player.vimeo.com">
     <!-- Sweet alert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Jquery -->
@@ -23,6 +25,8 @@
     <link rel="stylesheet" href="assets/css/contenido2_carlos.css">
     <!-- Estilos de botón cohete -->
     <link rel="stylesheet" href="assets/css/boton_carlos.css">
+    <!--Video-->
+    <link rel="stylesheet" href="assets/css/video.css">
     <!-- Estilos de Letra Popins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,12 +56,24 @@
         </div>
     </nav>
 
-    <div style="padding:37.5% 0 0 0; position:relative;" class="container rounded">
-        <iframe src="https://player.vimeo.com/video/1002183620?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="BANNERVIDEO_CODESYNERGY"></iframe>
-    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <!-- Contenedor de video responsivo con un tamaño mínimo ajustado -->
+              <div class="ratio ratio-16x9">
+                  <iframe src="https://player.vimeo.com/video/1002183620?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+                          title="BANNERVIDEO_CODESYNERGY" 
+                          loading="lazy" 
+                          allowfullscreen>
+                  </iframe>
+              </div>
+          </div>
+      </div>
+    </div>  
 
-    <!-- Carrusel / Daniela -->
+    <!-- Carrusel / Daniela -->    
     <section class="container">
+      <h2 class="text-center">CodeSynergy</h2>
       <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,7 +82,7 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="5000">
-                    <img src="assets/img/equipo.webp" class="d-block w-100 ClaseImagenesSlider" alt="equipo unido" id="equipo unido">
+                    <img src="assets/img/equipo.webp" class="d-block w-100 ClaseImagenesSlider" alt="equipo unido" id="equipounido">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h4 alert alert-light fs-6">El Mejor Equipo Unidos para Convertir una Idea en Realidad <i class="bi bi-check-circle"></i></p>
                     </div>
@@ -78,7 +94,7 @@
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="5000">
-                    <img src="assets/img/suenos.webp" class="d-block w-100 ClaseImagenesSlider" alt="sueños" id="sueños">
+                    <img src="assets/img/suenos.webp" class="d-block w-100 ClaseImagenesSlider" alt="sueños" id="suenos">
                     <div class="carousel-caption d-none d-md-block">
                         <p class="h4 alert alert-light fs-6">Construimos Sueños y Hacemos Felices a personas emprendedoras <i class="bi bi-emoji-sunglasses"></i></p>
                     </div>
