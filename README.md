@@ -1,3 +1,4 @@
+
 # Proyecto Colaborativo - Desarrollador Fullstack Python Trainee
 
 Este proyecto es parte del **programa de Talento Digital para Chile**, desarrollado en colaboración con **SENCE** y **EduTecno**. El curso se llama **Desarrollador Fullstack Python Trainee** y en él, los estudiantes han trabajado juntos en un entorno profesional utilizando GitHub para gestionar el código y la colaboración en equipo.
