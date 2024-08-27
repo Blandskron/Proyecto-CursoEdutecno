@@ -64,3 +64,28 @@ p {
     background-color: #f9f9f9;
     text-align: left;
 }
+
+.cursos {
+    text-align: center;
+    padding: 20px; 
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tarjeta {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
