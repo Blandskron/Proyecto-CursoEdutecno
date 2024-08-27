@@ -1,43 +1,158 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="Proyecto-CursoEdutecno/assets/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="Proyecto-CursoEdutecno/assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"/>
     <title>Trabajo grupal</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header: Erick -->
     <header>
-        <nav >
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>  <!-- Lista de navegación --> 
+      <nav>
+        <div
+          class="collapse"
+          id="navbarToggleExternalContent"
+          data-bs-theme="dark">
+          <div class="bg-dark p-4">
+            <h1 class="text-white h1">Inicio</h1>
+            <h1 class="text-white h1">Cursos</h1>
+            <h1 class="text-white h1">Profesores</h1>
+            <h1 class="text-white h1">Testimonios</h1>
+            <h1 class="text-white h1">Contacto</h1>
+
+            <!--    <span class="text-body-secondary">Toggleable via the navbar brand.</span>
+-->
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </nav>
+        <!-- Lista de navegación -->
+      </nav>
     </header>
     <!-- Sección: Ignacio -->
     <div>
-        <h1>test jueves 22  >  20:54</h1>
-    </div>
-        <!-- Sección: Gastón -->
-    <section>
-        <div>
-            <h2>Titulo de la sección</h2>
-        </div>      
-    </section>
-    <!-- Sección Francisco -->
-    <div>
-        <h3> TEMAS DE CIBERSEGURIDAD</h3>
-    </div>   
-    <!-- Sección Damián -->  
-    <section>
-        <div>
-            <h4> Botón SENCE</h4>
+      <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3">
+          <h1 class="text-body-emphasis">
+            EDUMON TU POKE-INSTITUTO,by Team Rocket
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-bootstrap-reboot"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M1.161 8a6.84 6.84 0 1 0 6.842-6.84.58.58 0 1 1 0-1.16 8 8 0 1 1-6.556 3.412l-.663-.577a.58.58 0 0 1 .227-.997l2.52-.69a.58.58 0 0 1 .728.633l-.332 2.592a.58.58 0 0 1-.956.364l-.643-.56A6.8 6.8 0 0 0 1.16 8z"
+              />
+              <path
+                d="M6.641 11.671V8.843h1.57l1.498 2.828h1.314L9.377 8.665c.897-.3 1.427-1.106 1.427-2.1 0-1.37-.943-2.246-2.456-2.246H5.5v7.352zm0-3.75V5.277h1.57c.881 0 1.416.499 1.416 1.32 0 .84-.504 1.324-1.386 1.324z"
+              />
+            </svg>
+          </h1>
+          <p class="lead">
+            Nos especializamos, en todo tipo de pokemones. explicamos como
+            buscar legendarios
+          </p>
         </div>
+      </div>
+    </div>
+    <!-- Sección: Gastón -->
+    <section class="cursos">
+      <h1>Nuestros Cursos de Capacitación</h1>
+
+      <div class="contenedor-tarjetas">
+          <div class="tarjeta">
+              <img src="assets/img/Curso-AWS.jpg" alt="Curso 1">
+              <h2>Introducción a AWS</h2>
+              <p>Amazon Web Services (AWS) es la nube más completa y ampliamente adoptada del mundo, e incluye ofertas
+                  de infraestructura como servicio (IaaS) y plataforma como servicio (PaaS). Los servicios de AWS
+                  ofrecen soluciones escalables para la computación, el almacenamiento, las bases de datos, el
+                  análisis y mucho más. Aprenda a lanzar y a configurar diferentes servicios de AWS en una amplia gama
+                  de categorías con nuestra experiencia de incorporación.</p>
+          </div>
+          <div class="tarjeta">
+              <img src="assets/img/Curso-back-end.jpg" alt="Curso 2">
+              <h2>Desarrollo FULL STACK</h2>
+              <p>Un desarrollador full stack es un especialista en el desarrollo de sitios web que integra el diseño
+                  de la experiencia del cliente en una página (front end), así como la programación y mantenimiento de
+                  la arquitectura interna del sitio (back end).</p>
+          </div>
+          <div class="tarjeta">
+              <img src="assets/img/Curso-frontend.jpg" alt="Curso 3">
+              <h2>Desarrollo FRONT-END</h2>
+              <p>El desarrollo frontend consiste en la construcción de aplicaciones web que brindan funcionalidad a
+                  los usuarios, permitiéndoles alcanzar sus objetivos proporcionando una buena experiencia de uso.
+                  Estas aplicaciones web se ejecutan en un navegador y se comunican con otros sistemas para lograr su
+                  propósito.</p>
+          </div>
+          <div class="tarjeta">
+              <img src="assets/img/Curso-bases-de-datos.jpg" alt="Curso 4">
+              <h2>Bases de Datos Relacionales</h2>
+              <p>Aprender a diseñar bases de datos relacionales es fundamental en el ámbito de la informática y la
+                  gestión de la información. Aquí hay varias razones detalladas que respaldan la importancia de
+                  adquirir habilidades en este campo.</p>
+          </div>
+          <div class="tarjeta">
+              <img src="assets/img/Curso-de-programacion.jpg" alt="Curso 5">
+              <h2>Programación Avanzada</h2>
+              <p>En este curso de programación avanzada aprenderás las habilidades avanzadas de la programación a
+                  través de explicaciones prácticas sobre el funcionamiento de algoritmos y el pensamiento lógico para
+                  la resolución de problemas complejos. Dominarás el uso de librerias, unit tests, archivos I/O,
+                  expresiones regulares y programación orientada a objetos.</p>
+          </div>
+          <div class="tarjeta">
+              <img src="assets/img/Curso-python.jpg" alt="Curso 6">
+              <h2>Programación Python</h2>
+              <p>Este curso te introduce en el mundo de la programación en el lenguaje Python. De una forma práctica,
+                  aprenderás de forma gradual desde el tratamiento básico de variables hasta la programación de
+                  algoritmos para construir tus propios juegos. Además, te familiarizarás con los conceptos
+                  fundamentales para el desarrollo de algoritmos y su programación.</p>
+          </div>
+      </div>
+
+  </section>
+    <!-- git -->
+    <div>
+      <h3>TEMAS DE CIBERSEGURIDAD</h3>
+    </div>
+    <!-- Sección Damián -->
+    <section>
+      <div>
+        <h4>Botón SENCE</h4>
+      </div>
     </section>
-    <script src="assets/js/scripts.js"></script> 
-</body>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/scripts.js"></script>
+  </body>
 </html>

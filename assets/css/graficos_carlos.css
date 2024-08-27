@@ -1,0 +1,8 @@
+.chart-container {
+    background-color: #f8f9fa; /* Fondo gris claro */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    padding: 20px; /* Espaciado interno */
+    margin: 10px auto; /* Margen automático centrado */
+    max-width: 800px; /* Ancho máximo */
+}
